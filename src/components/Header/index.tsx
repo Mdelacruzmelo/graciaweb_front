@@ -5,7 +5,8 @@ const Header = ({ search, setSearch }: any) => {
     return (
         <div className={styles.searchComponent}>
             <input
-                type="text"
+                type="search"
+                value={search}
                 onChange={({ target }) => {
                     setSearch(target.value)
                 }} />

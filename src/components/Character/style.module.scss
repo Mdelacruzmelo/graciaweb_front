@@ -2,9 +2,11 @@
     border-radius: 5px;
     border: 1px solid lightgrey;
     padding: 20px;
-    width: 30%;
+    width: 32%;
     margin-right: 10px;
     background-color: white;
+    margin-bottom: 20px;
+    position: relative;
 
     label {
         font-weight: light;
@@ -12,6 +14,12 @@
         display: block;
         width: 100%;
         margin-top: 10px;
+    }
+
+    button {
+        position: absolute;
+        right: 20px;
+        top: 20px;
     }
 
     .films {
